@@ -1,6 +1,6 @@
 package Model;
 
-public class Medicamento {
+public class Medicamentos {
     public int medicamento_id;
     public String nombre_medicamento;
     public String descripcion_medicamento;
@@ -9,10 +9,10 @@ public class Medicamento {
     public String frecuencia ;
     public int afiliado_id;
 
-    public Medicamento() {
+    public Medicamentos() {
     }
 
-    public Medicamento(int medicamento_id, String nombre_medicamento, String descripcion_medicamento, int diagnostico_id, String dosis, String frecuencia, int afiliado_id) {
+    public Medicamentos(int medicamento_id, String nombre_medicamento, String descripcion_medicamento, int diagnostico_id, String dosis, String frecuencia, int afiliado_id) {
         this.medicamento_id = medicamento_id;
         this.nombre_medicamento = nombre_medicamento;
         this.descripcion_medicamento = descripcion_medicamento;

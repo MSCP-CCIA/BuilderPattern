@@ -1,6 +1,6 @@
 package Model;
 
-public class Examen {
+public class Examenes {
     public int examen_id;
     public String nombre_examen;
     public String descripcion_examen;
@@ -8,10 +8,10 @@ public class Examen {
     public String resultado_examen;
     public int afiliado_id;
 
-    public Examen() {
+    public Examenes() {
     }
 
-    public Examen(int examen_id, String nombre_examen, String descripcion_examen, String fecha_examen, String resultado_examen, int afiliado_id) {
+    public Examenes(int examen_id, String nombre_examen, String descripcion_examen, String fecha_examen, String resultado_examen, int afiliado_id) {
         this.examen_id = examen_id;
         this.nombre_examen = nombre_examen;
         this.descripcion_examen = descripcion_examen;
